@@ -23,6 +23,7 @@ namespace JeremiahPrice___Math_Quiz
             addend1 = randomizer.Next(51);
             addend2 = randomizer.Next(51);
 
+            //should talk to the labels, but does not show random numbers.
             plusLeftLabel.Text = addend1.ToString();
             plusRightLabel.Text = addend2.ToString();
 
